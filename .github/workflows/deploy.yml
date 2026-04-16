@@ -17,7 +17,7 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd hello-node
+            cd /home/ec2-user/hello-node
             git pull origin main
             npm install
             pm2 restart hello-node
