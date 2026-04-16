@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
         </head>
         <body>
             <div class="container">
-                <h1>🚀 Welcome to Lalit's Cloud Project</h1>
+                <h1>🚀 Welcome to Our Cloud Project</h1>
                 <p>Successfully deployed on <span class="highlight">AWS EC2</span></p>
                 <p>CI/CD pipeline is working with <span class="highlight">GitHub Actions</span></p>
                 <p>Built using <span class="highlight">Node.js + Nginx + PM2</span></p>
